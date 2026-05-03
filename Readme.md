@@ -38,14 +38,14 @@ A professional personal portfolio website showcasing skills, projects, and conta
 📌 Submission Details
 
 🔗 GitHub Repository
-[View Repo]()
+[View Repo](https://github.com/Mahalekshmi4470/synent-task1-portfolio-mahalekshmi)
 
 🌐 Live Demo
-[Open App]()
+[Open App](https://mahalekshmi4470.github.io/synent-task1-portfolio-mahalekshmi/)
 
 🎥 Demo Video
-[Watch Video]()
+[Watch Video](https://www.linkedin.com/posts/mahalekshmi-s-1327ab324_internship-webdevelopment-learning-ugcPost-7456675035705942016-JMWN)
 
 📢 LinkedIn Sharing
-
 Shared on LinkedIn:
+https://www.linkedin.com/posts/mahalekshmi-s-1327ab324_internship-webdevelopment-learning-ugcPost-7456675035705942016-JMWN
