@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahalekshmi S | Web Developer</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="logo"><a href="#home">Mahalekshmi S</a></h1>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="home">
+        <div class="home-content">
+          <h2>Hello, I'm</h2>
+          <h1>Mahalekshmi S</h1>
+          <h3>Web Developer</h3>
+
+          <p>
+            Passionate web developer focused on building responsive and
+            user-friendly websites.
+          </p>
+
+          <div class="home-buttons">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#skills" class="btn btn-outline">View Skills</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://github.com/Mahalekshmi4470" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/mahalekshmi-s-1327ab324"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+
+          <div class="cv-download">
+            <a href="Resume.pdf" download class="btn">Download CV</a>
+          </div>
+        </div>
+
+        <div class="home-image">
+          <img src="profile.jpeg" alt="Mahalekshmi profile" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+
+        <p>
+          I am a passionate web developer with a strong foundation in HTML, CSS,
+          and JavaScript. I enjoy creating clean, responsive, and user-friendly
+          web applications that deliver a seamless experience across devices. I
+          am constantly exploring modern web technologies and best practices to
+          improve my skills and build efficient, scalable solutions. I am highly
+          motivated to learn, adapt, and contribute to real-world projects.
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills">
+        <div class="section-title">
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- FRONTEND -->
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i><span>HTML</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i><span>CSS</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i><span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- LANGUAGES -->
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-python"></i><span>Python</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code"></i><span>C</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-java"></i><span>Java</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TOOLS -->
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fas fa-code"></i><span>VS Code</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i><span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-github"></i><span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-figma"></i><span>Figma</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-palette"></i><span>Canva</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><a href="mailto:mahalekshmi2021@gmail.com">
+                mahalekshmi2021@gmail.com
+              </a>
+            </p>
+            <p><i class="fa-solid fa-phone"></i><span>+91 9080668496</span></p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i
+              ><span>Nagercoil, Tamil Nadu</span>
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- TOAST -->
+      <div id="successToast" class="toast success">
+        Message sent successfully <i class="fa-regular fa-circle-check"></i>
+      </div>
+
+      <div id="errorToast" class="toast error">
+        Please fill all fields correctly
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 Mahalekshmi S | All Rights Reserved</p>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      const links = document.querySelectorAll(".nav-links a");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+      const form = document.querySelector(".contact-form");
+      const successToast = document.getElementById("successToast");
+      const errorToast = document.getElementById("errorToast");
+      function showToast(toast) {
+        successToast.classList.remove("show");
+        errorToast.classList.remove("show");
+        toast.classList.add("show");
+        setTimeout(() => {
+          toast.classList.remove("show");
+        }, 3000);
+      }
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const message = form.message.value.trim();
+        if (name === "" || email === "" || message === "") {
+          showToast(errorToast);
+          return;
+        }
+        showToast(successToast);
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
